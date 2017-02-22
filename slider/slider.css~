@@ -1,0 +1,59 @@
+.row
+{
+  margin-left:0px;
+  margin-right:0px;
+}
+#page_section
+{
+  background-color:#333;
+}
+#container_row
+{
+  padding-top:25%;
+  padding-bottom:30%;
+}
+#second_section
+{
+  display:none;
+  background-color:white;
+}
+#modal_close
+{
+    background-color:#333;
+    color: white;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom:30px;
+    cursor:pointer;
+}
+#circle_btn
+{
+  font-size:60px;
+  color:white;
+}
+#left_circle_btn
+{
+  font-size:40px;
+}
+#right_circle_btn
+{
+  font-size:40px;
+}
+#middle_span
+{
+  color:white;
+}
+#circle_row
+{
+  margin-top:80px;
+}
+#left_span
+{
+  color:white;
+  padding-left:0px;
+}
+#right_span
+{
+  color:white;
+  float:right;
+}

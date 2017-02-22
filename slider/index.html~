@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+<section id="page_section">
+<div class="container">
+<div class="row" id="container_row">
+<div class="col-xs-4 col-lg-4 col-md-4 col-sm-4"></div>
+<div class="col-xs-4 col-lg-4 col-md-4 col-sm-4">
+<div class="row" id="slider_row">
+<i class="fa fa-circle" id='circle_btn'></i>
+<!--<button type="button" class="btn btn-info" id="slider_btn" onclick="slider_function();">Slider</button>-->
+<div class="row" id="circle_row">
+<div class="col-xs-8 col-lg-8 col-md-8 col-sm-8" id="left_span" onclick="animate_function();"><i class="fa fa-circle" id='left_circle_btn'></i>
+<span id="middle_span">----------------------------</span>
+</div>
+<div class="col-xs-4 col-lg-4 col-md-4 col-sm-4" id="right_span"><i class="fa fa-circle" id='right_circle_btn'></i></div>>
+</div>
+</div>
+</div>
+<div class="col-xs-4 col-lg-4 col-md-4 col-sm-4">
+</div>
+</div>
+</div>
+</section>
+<section id="second_section">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 col-lg-3 col-md-3 col-sm-3"></div>
+<div class="col-xs-3 col-lg-3 col-md-3 col-sm-3"></div>
+<div class="col-xs-3 col-lg-3 col-md-3 col-sm-3"></div>
+<div class="col-xs-3 col-lg-3 col-md-3 col-sm-3" id="modal_close">
+<span id="close_modal" onclick="modal_close_handler();">X</span></div>
+</div>
+</div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+</body>
+</html>
